@@ -1,7 +1,7 @@
 (function () {
   const STORAGE_KEY = "qingyan.lang";
   // Fill with the numeric Apple ID from App Store Connect after release.
-  const APP_STORE_ID = "";
+  const APP_STORE_ID = "6824397343";
   const APP_STORE_URL = APP_STORE_ID ? `https://apps.apple.com/app/id${APP_STORE_ID}` : "";
 
   function normalizeLang(raw) {
